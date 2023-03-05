@@ -53,5 +53,10 @@ public class VariableInfo2 {
         System.out.println(12+5+""+5);
 
 
+        System.out.println(12+""+(5+4)+1);
+                         //12 +""+ 9 +1
+                         //12(string) +9+1
+                         //129(string)+1
+                         //1291(string)
     }
 }
