@@ -1,0 +1,175 @@
+Review Week 3
+
+   ** println() vs print() statement
+
+   ** Comments
+
+   ** Escape Sequences
+
+   ** Variables
+
+   ** Concatination
+
+   ** Primitive Type Casting
+
+
+
+
+   =====================================
+ **println() vs print() statement
+
+  -- println(): after printing appends a new line after last character
+
+  -- print(): after printing not append a new line after last character
+
+=====================================
+ **Comments
+  -- single line comments : in order to put single comment line, we need use // 
+  -- multi line comments : in order to put multi line comment line, we need use /* */
+=====================================
+ **Escape Sequences
+   
+  Escape sequences: MUST be given with double quote like "\n"
+
+\n: starts a new line
+\t: paragraph space(tab)
+\\: single back slash
+\": double quote
+
+=====================================
+
+** Variables
+		-Primitive Data Types
+		-String
+        -Declaring multiple variables
+        -Concatenation		
+        -Primitive Type Castings
+        -Arithmetic Operators
+
+  ==============================
+  Primitive Data Types:
+    1- numerical primitives:
+					double > float > long > int > short > byte
+     
+    2- boolean
+    3- char
+
+
+primitives:
+	int: for integers
+	double: for decimals
+	char: for single characters, ''
+	boolean: true/false
+
+String: sequence of characters (String of text), "" (non-primitive)
+
+===============================
+Variables:
+
+variable naming rules:
+		1. MUST be unique
+		2. camelCase
+		3. Can Not start with digits
+		4. starts with lower case letters
+		5. Can Not be Java Reserved words
+		6. Can Not have special characters other than _ and $
+		7. readable, understandable
+
+
+declare variable:
+		dataType  variableName = data;
+
+===============================
+Addition: +
+		
+	 number +  number ==> addition
+	 	1   +    2   ===> 3
+
+
+Concatenation: +
+
+		String + Data
+		Data   + String
+		String + String
+===============================
+Primitive Type Castings:
+
+Implicit Casting: Smaller primitives can be directly assigned to larger primitive type		
+Implicit Casting: Larger ptimitives can NOT be directly assigned to smaller primitive types (need to be casted manually)
+
+================================
+
+
+Tasks:
+
+Task 1: Create a class RightTriangle.java and print it (do not use println())
+          *
+          * *
+          * * *
+          * * * *
+          * * * * *
+
+
+================================================================
+
+Task 2: Create a class T1BasicCalculator [variables, operators, concatenation]
+
+    Create a program that will define two double variables. Take the two numbers are perform all the mathematical operations on them ( + - * / % )
+    Output in this format:
+        num1 operator num2 = result
+
+    Ex:
+        num1 = 5
+        num2 = 2
+
+        output:
+        5 + 2 = 7
+        5 - 2 = 3
+        ...
+
+================================================================
+
+Task 3: Create a class T2SumDigits [variables, arithmetic & shorthand operators]
+
+    Create a program that will define an int number that ranges from 100 - 999. Take each digit individually and calculate the sum of all the digits
+
+    Ex:
+        input: 561
+        output: 12
+            -> 5 + 6 + 1 = 12
+
+    Extra: Output the result in this format:
+        The sum of the digits in $number is $sum
+        ex: The sum of the digits in 561 is 12
+
+================================================================
+
+Task 4: Create class named "TemperatureConverter" and make a main method
+
+		- Write a Java program to convert temperature from Fahrenheit to Celsius degree
+		- Input a degree in Fahrenheit: 212
+
+							Formula : 		C = (5(F-32))/9
+
+		- Expected Output:
+							212.0 degree Fahrenheit is equal to 100.0 in Celsius
+
+
+================================================================
+
+Task 5: Create class named ConvertMinutesToYearAndDay, write a Java program to convert minutes into a number of years and days.
+     
+     Input the number of minutes: 3456789
+     Expected Output :
+     3456789 minutes is approximately 6 years and 210 days
+
+
+
+
+
+
+
+
+
+
+
