@@ -1,0 +1,124 @@
+Review Questions
+
+1- Why we need main method?
+
+2- What is the difference between print() and println()?
+
+3- What do you know about escape sequences?
+
+4- What kind of primitive data type we have?
+
+5- What is concatenation ?
+
+6- What do you know about casting?
+
+
+Topics:
+
+* Operators
+		- Arithmetic Operators (%)
+
+		- Unary Operators (+, -, ++, --)
+
+		- Shorthand Operators (=, +=, -=, *=, /=, %=)
+
+		- Relational Operators (>, <, >=, <=, ==, !=)
+
+        - Logical Operators (&&, ||, !)
+
+* If Statements:
+
+        - Single If
+        - If & Else Statement
+        - Multi-Branch If
+
+
+=================================
+Unary Operators:
++  :	Addition	    ->  Adds together two values	            x + y
+-  :	Subtraction	    ->  Subtracts one value from another	    x - y
+*  :	Multiplication  ->	Multiplies two values	                x * y
+/  :	Division	    -> 	Divides one value by another	        x / y
+%  :	Modulus	        ->	Returns the division remainder	        x % y
+++ :	Increment       ->	Increases the value of a variable by 1	++x
+-- :	Decrement	    ->	Decreases the value of a variable by 1	--x
+
+
+      Post vs Pre:
+        Pre : changes the value immediately
+          ++ a
+          -- a
+       post: changes the value in the second step.
+          a ++
+          a --
+
+=============================
+Shorthand Operators (=, +=, -=, *=, /=, %=)
+int a=a+5;
+or
+int a+=5;
+
+
+int b=b-5;
+or
+int b-=5;
+
+
+=========================
+Relational Operators (>, <, >=, <=, ==, !=)
+
+
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+Equal to a == b
+Not Equal to: a != b
+
+========================
+
+
+
+if (condition)
+{
+    // Executes this block if
+    // condition is true
+}
+
+___________________________
+
+
+if (condition)
+{
+    // Executes this block if
+    // condition is true
+}
+else
+{
+    // Executes this block if
+    // condition is false
+}
+___________________________
+
+if (condition)
+{
+    // Executes this block if
+    // condition is true
+    //it will not look next contion
+}
+else if(condition)
+{
+    // Executes this block if
+    // before contion is false
+    // if that condition is true
+    //it will not look next contion
+}else if(condition)
+{
+    // Executes this block if
+    // before contion is false
+    // if that condition is true
+    //it will not look next contion
+}else{
+	// Executes this block if
+    // all conditions are false
+}
